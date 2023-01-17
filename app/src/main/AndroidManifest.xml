@@ -5,6 +5,10 @@
 
     <!--일반 권한 : 네트워크 및 인터넷 사용 권한-->
     <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--위험 권한 : 카메라 권한-->
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
